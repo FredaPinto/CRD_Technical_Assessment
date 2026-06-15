@@ -1,4 +1,11 @@
-**Rebalancing App**
+## Rebalancing App
+
+**📂 Project Structure**
+.
+├── RebalancingApp.py          # Core calculation logic
+├── test_RebalancingAppTest.py # Automated PyTest test cases
+├── README.md             # Documentation
+└── conftest.py          # A dummy login step
 
 **Contents**
 
