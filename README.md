@@ -10,7 +10,7 @@
 
 ### Contents
 
-I have included the manual test case pdf in the project.
+I have used the TestLodge Template for writing manual test and attached the pdf in the Github (please find attachment).
 This project contains the rebalancing app function that calculates the shares and maintains the portfolio value to zero variance.
 There is an automated test case for the function that uses pytest to test the functionality.
 The assumptions are included in this file for reference used in this project.
