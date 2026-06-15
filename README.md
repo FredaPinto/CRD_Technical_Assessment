@@ -1,20 +1,20 @@
 ## Rebalancing App
 
-**📂 Project Structure**
-.
-├── RebalancingApp.py          # Core calculation logic
-├── test_RebalancingAppTest.py # Automated PyTest test cases
-├── README.md             # Documentation
-└── conftest.py          # A dummy login step
+### 📂 Project Structure
 
-**Contents**
+* ├── RebalancingApp.py          # Core calculation logic
+* ├── test_RebalancingAppTest.py # Automated PyTest test cases
+* ├── README.md             # Documentation
+* └── conftest.py          # A dummy login step
+
+### Contents
 
 I have included the manual test case pdf in the project.
 This project contains the rebalancing app function that calculates the shares and maintains the portfolio value to zero variance.
 There is an automated test case for the function that uses pytest to test the functionality.
 The assumptions are included in this file for reference used in this project.
 
-**Assumptions**
+### Assumptions
 
 * Total portfolio value is always provided and valid
 
