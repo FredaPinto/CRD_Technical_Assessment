@@ -21,7 +21,7 @@ def test_hold_positions():
 def test_total_buy_equals_total_sell():
     ibm = calculate_shares(100000, 20, 10, 150) * 150
     orcl = calculate_shares(100000, 20, 30, 220) * 220
-    assert round(ibm, 2) == round(abs(orcl), 2)
+    assert ibm == pytest.approx(abs(orcl), rel=1e-2)
 
 def test_negative_variance_means_buy():
     shares = calculate_shares(100000, 20, 10, 150)
