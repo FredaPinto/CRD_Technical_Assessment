@@ -1,5 +1,7 @@
 **Rebalancing App**
 
+
+
 *Contents*
 I have included the manual test case pdf in the project.
 This project contains the rebalancing app function that calculates the shares and maintains the portfolio value to zero variance.
