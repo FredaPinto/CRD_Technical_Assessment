@@ -2,7 +2,8 @@
 
 ### 📂 Project Structure
 
-* ├── RebalancingApp.py          # Core calculation logic
+* ├── Manual_Test_Cases.pdf         # Manual Test Suite
+* ├── RebalancingApp.py          # calculation logic
 * ├── test_RebalancingAppTest.py # Automated PyTest test cases
 * ├── README.md             # Documentation
 * └── conftest.py          # A dummy login step
