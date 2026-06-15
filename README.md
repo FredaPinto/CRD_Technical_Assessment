@@ -38,7 +38,7 @@ Run command :-pytest
 OR  
 Run from the Pycharm Menu Bar - Run - Run 'test_RebalancingAppTest.py'
 
-###Sample_Output
+### Sample_Output
 
 `C:\Users\freda\AppData\Local\Python\bin\python.exe "C:/Program Files/JetBrains/PyCharm 2026.1.2/plugins/python-ce/helpers/pycharm/_jb_pytest_runner.py" --path C:\Users\freda\PycharmProjects\CRD_Technical_Assessment\test_RebalancinAppTest.py 
 Testing started at 21:25 ...
