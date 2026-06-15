@@ -37,3 +37,27 @@ To run and validate the test cases are passing ,you need to have PyCharm and pyt
 Run command :-pytest  
 OR  
 Run from the Pycharm Menu Bar - Run - Run 'test_RebalancingAppTest.py'
+
+###Sample_Output
+
+`C:\Users\freda\AppData\Local\Python\bin\python.exe "C:/Program Files/JetBrains/PyCharm 2026.1.2/plugins/python-ce/helpers/pycharm/_jb_pytest_runner.py" --path C:\Users\freda\PycharmProjects\CRD_Technical_Assessment\test_RebalancinAppTest.py 
+Testing started at 21:25 ...
+Launching pytest with arguments C:\Users\freda\PycharmProjects\CRD_Technical_Assessment\test_RebalancinAppTest.py --no-header --no-summary -q in C:\Users\freda\PycharmProjects\CRD_Technical_Assessment
+
+============================= test session starts =============================
+collecting ... collected 8 items
+
+test_RebalancinAppTest.py::test_login I have logged in as user abc
+PASSED                             [ 12%]Rebalancing App Test
+
+test_RebalancinAppTest.py::test_ibm_buy PASSED                           [ 25%]
+test_RebalancinAppTest.py::test_orcl_sell PASSED                         [ 37%]
+test_RebalancinAppTest.py::test_hold_positions PASSED                    [ 50%]
+test_RebalancinAppTest.py::test_total_buy_equals_total_sell PASSED       [ 62%]
+test_RebalancinAppTest.py::test_negative_variance_means_buy PASSED       [ 75%]
+test_RebalancinAppTest.py::test_positive_variance_means_sell PASSED      [ 87%]
+test_RebalancinAppTest.py::test_invalid_input PASSED                     [100%]
+
+============================== 8 passed in 0.02s ==============================
+
+Process finished with exit code 0`
