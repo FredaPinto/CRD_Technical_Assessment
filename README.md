@@ -1,3 +1,6 @@
+This project contains the csv with manual test.
+And the python file with rebalancing function and test cases for it.
+
 **Assumptions**
 
 * Total portfolio value is always provided and valid
