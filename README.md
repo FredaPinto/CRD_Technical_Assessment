@@ -1,9 +1,10 @@
 **Rebalancing App**
 
 *Contents*
-
-This project contains the csv with manual test.
-And the python file with rebalancing function and test cases for it.
+I have included the manual test case pdf in the project.
+This project contains the rebalancing app function that calculates the shares and maintains the portfolio value to zero variance.
+There is an automated test case for the function that uses pytest to test the functionality.
+The assumptions are included in this file for reference used in this project.
 
 **Assumptions**
 
