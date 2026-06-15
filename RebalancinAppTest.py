@@ -1,0 +1,39 @@
+#Fixtures
+import pytest
+from RebalancingApp import calculate_shares
+
+def pytest_login(userLogin):
+    print("Rebalancing App Test")
+
+def pytest_test_ibm_buy():
+    shares = calculate_shares(100000, 20, 10, 150)
+    assert shares == 66.67
+
+def pytest_test_orcl_sell():
+    shares = calculate_shares(100000, 20, 30, 220)
+    assert shares == -45.45
+
+def pytest_test_hold_positions():
+    assert calculate_shares(100000, 20, 20, 90) == 0
+    assert calculate_shares(100000, 20, 20, 450) == 0
+    assert calculate_shares(100000, 20, 20, 70) == 0
+
+def pytest_test_total_buy_equals_total_sell():
+    ibm = calculate_shares(100000, 20, 10, 150) * 150
+    orcl = calculate_shares(100000, 20, 30, 220) * 220
+    assert round(ibm, 2) == round(abs(orcl), 2)
+
+def pytest_test_negative_variance_means_buy():
+    shares = calculate_shares(100000, 20, 10, 150)
+    assert shares > 0
+
+def pytest_test_positive_variance_means_sell():
+    shares = calculate_shares(100000, 20, 30, 220)
+    assert shares < 0
+
+def pytest_test_invalid_input():
+    try:
+        calculate_shares(100000, -10, 20, 150)
+        assert False
+    except Exception:
+        assert True
