@@ -30,3 +30,10 @@ The assumptions are included in this file for reference used in this project.
 * No transaction fees or taxes
 
 * Only one buy and one sell required to rebalance
+
+### Run the test suite
+
+To run and validate the test cases are passing ,you need to have PyCharm and python installed  
+Run command :-pytest  
+OR  
+Run from the Pycharm Menu Bar - Run - Run 'test_RebalancingAppTest.py'
